@@ -1,13 +1,16 @@
-# Week 1: Introduction to SQE
-**Date:** 14-April-2026  
+# Week 1: Unit Testing with Pytest
 
-
-## Objectives
-* Lab environment setup
-* Git and GitHub configuration
-* SSH key integration
+## Project Overview
+This week focuses on setting up a professional Python testing environment and implementing unit tests for a basic calculator module.
 
 ## Tasks Completed
-1. [x] Configured Git global settings
-2. [x] Generated SSH keys for secure connection
-3. [x] Cloned the repository to local machine
+* Set up a **Virtual Environment (`.venv`)** to isolate dependencies.
+* Installed and configured **Pytest** and **Coverage.py**.
+* Developed `calculator.py` with basic arithmetic functions.
+* Created `test_calculator.py` with 17 test cases covering edge cases (like division by zero).
+
+## How to Run Tests
+1. Activate the virtual environment.
+2. Run the following command:
+   ```bash
+   pytest test_calculator.py -v
