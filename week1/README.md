@@ -37,8 +37,7 @@ To understand how Pytest handles bugs, I deliberately introduced a logical error
 
 * **Bug Introduced:** `return a + b + 1`
 * **Result:** Pytest caught the error and showed an `AssertionError`.
-* **Output[screenshots]**
-![Failure Simulation Result]
+ ## **Output[screenshots]**
 ![1](<bug screnshot1.png>)
 ![2](<bug screnshot2.png>)
 ![3](<bug screnshot3.png>)
@@ -48,15 +47,15 @@ In this experiment, I used Pytest markers (`@pytest.mark.arithmetic`) to categor
 * **Action:** Marked 3 addition-related tests as `arithmetic`.
 * **Command:** `pytest -v -m arithmetic`
 * **Observation:** Pytest correctly identified and executed only the **3 selected** tests, while **14** others were deselected.
- * **Output[screenshots]**
+ ## **Output[screenshots]**
 ![markers](markers.png)
 
 ### **C. HTML Coverage Report (Experiment C.2)**
 Generated an interactive HTML report to visualize code execution flow and branch coverage.
 * **Branch Coverage:** Enabled to verify all decision-making paths.
 * **Outcome:** 100% Statement and Branch coverage verified.
- * **Output[screenshot]**
-![HTML Coverage Report](image.png)
+  ## **Output[screenshot]**
+![HTML Coverage Report](week1/report_html.png)
 
 ### How to Run Locally
 1. **Activate Virtual Environment:**
