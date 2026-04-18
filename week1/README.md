@@ -32,7 +32,7 @@ The project achieved **100% code coverage**, ensuring every logical branch was t
 | **Total** | **51** | **0** | **100%** |
 
 ---
-###Failure Simulation (B.6)
+### **A. Failure Simulation (Experiment B.6)**
 To understand how Pytest handles bugs, I deliberately introduced a logical error in the `add()` function.
 
 * **Bug Introduced:** `return a + b + 1`
@@ -42,8 +42,7 @@ To understand how Pytest handles bugs, I deliberately introduced a logical error
 ![1](<bug screnshot1.png>)
 ![2](<bug screnshot2.png>)
 ![3](<bug screnshot3.png>)
-
-###Test Markers (B.7)
+### **B. Test Markers & Grouping (Experiment B.7)**
 In this experiment, I used Pytest markers (`@pytest.mark.arithmetic`) to categorize specific tests. This allows us to run a subset of the test suite instead of the whole project.
 
 * **Action:** Marked 3 addition-related tests as `arithmetic`.
@@ -52,12 +51,10 @@ In this experiment, I used Pytest markers (`@pytest.mark.arithmetic`) to categor
  * **Output[screenshots]**
 ![markers](markers.png)
 
-
-###HTML Coverage Report (C.2)
-I generated a visual HTML coverage report to analyze the code execution line-by-line. 
-
-* **Branch Coverage:** Enabled to ensure all logical paths are tested.
-* **Outcome:** Achieved 100% statement and branch coverage.
+### **C. HTML Coverage Report (Experiment C.2)**
+Generated an interactive HTML report to visualize code execution flow and branch coverage.
+* **Branch Coverage:** Enabled to verify all decision-making paths.
+* **Outcome:** 100% Statement and Branch coverage verified.
  * **Output[screenshot]**
 ![HTML Coverage Report](image.png)
 
