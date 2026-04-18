@@ -5,14 +5,15 @@ import pytest
 from calculator import add, subtract, multiply, divide, power, is_even
 
 # Tests for add()
+@pytest.mark.arithmetic
 def test_add_two_positive_integers():
     """Adding two positive numbers gives their sum."""
     assert add(2, 3) == 5
-
+@pytest.mark.arithmetic
 def test_add_positive_and_negative():
     """Adding a positive and negative number."""
     assert add(10, -3) == 7
-
+@pytest.mark.arithmetic
 def test_add_two_floats():
     """Adding two float values."""
     assert add(1.5, 2.5) == 4.0

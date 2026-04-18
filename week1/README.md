@@ -32,6 +32,13 @@ The project achieved **100% code coverage**, ensuring every logical branch was t
 | **Total** | **51** | **0** | **100%** |
 
 ---
+###Failure Simulation (B.6)
+To understand how Pytest handles bugs, I deliberately introduced a logical error in the `add()` function.
+
+* **Bug Introduced:** `return a + b + 1`
+* **Result:** Pytest caught the error and showed an `AssertionError`.
+
+![Failure Simulation Result]
 
 ### How to Run Locally
 1. **Activate Virtual Environment:**
