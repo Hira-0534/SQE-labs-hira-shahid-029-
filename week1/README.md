@@ -55,7 +55,7 @@ Generated an interactive HTML report to visualize code execution flow and branch
 * **Branch Coverage:** Enabled to verify all decision-making paths.
 * **Outcome:** 100% Statement and Branch coverage verified.
   ## **Output[screenshot]**
-![HTML Coverage Report](week1/report_html.png)
+![htm report](report_html.png)
 
 ### How to Run Locally
 1. **Activate Virtual Environment:**
