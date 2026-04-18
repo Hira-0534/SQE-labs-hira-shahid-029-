@@ -29,7 +29,7 @@ The lab covers the development of two main modules and their corresponding unit 
 Development:
  Implemented calculator.py with core arithmetic operations and utility functions.
 
-## **Testing:**
+Testing:
  Developed test_calculator.py including 17 test cases to handle positive, negative, floating-point, and edge cases.
 ---
 ### **A. Failure Simulation (Experiment B.6)**
