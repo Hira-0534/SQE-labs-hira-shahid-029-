@@ -17,7 +17,7 @@ The applications were evaluated based on the following 8 quality characteristics
 
 ### Project Files
 * `quality_analysis.py`: Python script to generate the Radar Chart for quality visualization.
-* `quality_radar_Uber_inDrive.png`: The generated radar chart illustrating the quality gap between the apps.
+* `chart.png`: The generated radar chart illustrating the quality gap between the apps.
 * `README.md`: Project documentation.
 
 ### How to Run
